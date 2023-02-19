@@ -1,0 +1,54 @@
+.reg__title {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.reg__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  padding: 10px 50px;
+}
+
+.reg__login {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.reg__name {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.reg__password {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.reg__enter {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.reg__button {
+  border-radius: 5px;
+  padding: 8px 40px;
+  border: none;
+  background: black;
+  color: white;
+  opacity: 0.7;
+}
+
+.reg__button:hover {
+  opacity: 1;
+}

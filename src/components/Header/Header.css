@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.header__li {
+  text-decoration: none;
+}
+
+.header__link {
+  text-decoration: none;
+  margin-left: 100px;
+  color: #000;
+  opacity: 0.7;
+}
+
+.header__link:hover {
+  opacity: 1;
+}
+
+.header__navigation {
+  display: flex;
+}
+
+.header__leave {
+  padding-left: 600px;
+}
